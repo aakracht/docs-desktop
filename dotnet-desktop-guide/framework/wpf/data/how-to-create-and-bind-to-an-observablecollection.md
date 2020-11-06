@@ -26,31 +26,31 @@ public class NameList : ObservableCollection<PersonName>
         Add(new PersonName("Victor", "Hugo"));  
         Add(new PersonName("Jules", "Verne"));  
     }  
-  }  
+}  
   
-  public class PersonName  
-  {  
-      private string firstName;  
-      private string lastName;  
+public class PersonName  
+{  
+    private string firstName;  
+    private string lastName;  
   
-      public PersonName(string first, string last)  
-      {  
-          this.firstName = first;  
-          this.lastName = last;  
-      }  
+    public PersonName(string first, string last)  
+    {  
+        this.firstName = first;  
+        this.lastName = last;  
+    }  
   
-      public string FirstName  
-      {  
-          get { return firstName; }  
-          set { firstName = value; }  
-      }  
+    public string FirstName  
+    {  
+        get { return firstName; }  
+        set { firstName = value; }  
+    }  
   
-      public string LastName  
-      {  
-          get { return lastName; }  
-          set { lastName = value; }  
-      }  
-  }  
+    public string LastName  
+    {  
+        get { return lastName; }  
+        set { lastName = value; }  
+    }  
+}  
 ```  
   
 ```vb  
